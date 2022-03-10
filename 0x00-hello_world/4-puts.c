@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-// The main entry of the program
 
 /**
+ * Main Entry of the Program
+ *
+ *
  * has a method to prints a string 
  * 
  */
