@@ -4,6 +4,13 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+
+/*main -First Entry
+ *
+ * return(0) - sucess
+ 
+ * */
+
 int main(void)
 {
 	int n;
