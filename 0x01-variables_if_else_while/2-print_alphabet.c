@@ -3,22 +3,21 @@
 
 /**
  * main- First Entry
- * Return (0)- Success
+ * return (0)- Success
  */
 
 int main(void)
+
 {
 
-char c;
 
-for (c = 'a'; c <= 'z'; ++c)
-{
+	char c;
 
-	putchar(c);
-	putchar('\n');
 
-}
+	for (c = 'a'; c <= 'z'; ++c)
+		putchar(c);
 
-return (0);
+
+	return (0);
 
 }
