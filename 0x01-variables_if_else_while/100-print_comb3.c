@@ -26,6 +26,7 @@ int main(void)
 			putchar(num1);
 			putchar(num2);
 			putchar(',');
+			putchar('\x20');
 		}
 	
 	
