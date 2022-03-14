@@ -27,10 +27,11 @@ int main(void)
 			putchar(num2);
 			putchar(',');
 			putchar('\x20');
+	
 		}
 	
-	
 	}
+
 
         }
 
