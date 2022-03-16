@@ -3,15 +3,15 @@
 
 void jack_bauer(void)
 {
-	int hr=00;
+	int hr='00';
 	int min;
-	for (min = 00 ;min <= 60;min++)
+	for (min = '00' ;min <= '60';min++)
 	{	
-		min=min + 1;
-		if (min == 60)
+		min=min + '1';
+		if (min == '60')
 		{
-			hr=hr + 1;
-			min=00;
+			hr=hr + '1';
+			min='00';
 		
 		}
 
