@@ -7,10 +7,10 @@ int _abs(int x)
 	{
 		_putchar(x);
 	}
-	else 
+	else if (x < 0)
 	{
 		int multiply=x * 2;
-		int result=x - multiply;
+		int result=x - (multiply);
 	        _putchar(result);	
 	
 	}
