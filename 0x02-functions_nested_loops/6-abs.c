@@ -9,8 +9,8 @@ int _abs(int x)
 	}
 	else if (x < 0)
 	{
-		int multiply=x * 2;
-		int result=x - (multiply);
+		int add=x + x;
+		int minus=x - (add);
 	        _putchar(result);	
 	
 	}
