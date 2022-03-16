@@ -9,7 +9,7 @@ int _abs(int x)
 	}
 	else if (x < 0)
 	{
-		int add=x + x;
+		int add=x + (x);
 		int result=x - (add);
 	        _putchar(result);	
 	
