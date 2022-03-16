@@ -3,8 +3,8 @@
 
 void jack_bauer(void)
 {
-	int hr=4848;
-	int min;
+	char hr=4848;
+	char min;
 	for (min = 4848 ;min <= 5448;min++)
 	{	
 		min=min + 4849;
