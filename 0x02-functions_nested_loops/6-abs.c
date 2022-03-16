@@ -1,18 +1,17 @@
 #include "main.h"
 
 
-int _abs(int)
+int _abs(int x)
 {	
-	if (int > 0)
+	if (x > 0)
 	{
-		_putchar(int);
-		return(int);
+		_putchar(x);
 	}
 	else 
 	{
-		int multiply=int * 2;
-		int result=int - multiply;
-	        return(int);	
+		int multiply=x * 2;
+		int result=x - multiply;
+	        _putchar(result);	
 	
 	}
 
