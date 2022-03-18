@@ -1,12 +1,13 @@
 #include "main.h"
 /**
- * print_numbers - prints the numbers, from ( 0 to 9, ) followed by a new line
+ * print_numbers - prints the numbers, from ( 0 to 9, )void print_numbers(void)
  *
  */
 void print_numbers(void)
-{	int i;
-	for (i = 48 ; i <= 57 ; i++)
-		_putchar(i);
+{
+	int num;
+
+	for (num = 48 ; num <= 57 ; num++)
+		_putchar(num);
 	_putchar('\n');
 }
-
