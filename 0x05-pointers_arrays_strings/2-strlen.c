@@ -5,11 +5,10 @@
  * Return: the length of a string
  */
 int _strlen(char *s)
-{	char str_arr[] = s;
-	int i;
+{	int i;
 	int str_len = 0;
-
-	for (i = 0; str_arr[i] != '\0'; i++)
+	
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		str_len++;
 	}
