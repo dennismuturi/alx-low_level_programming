@@ -7,7 +7,7 @@ void print_rev(char *s)
 {
 
 	int l;
-	char rev = '';
+	char rev;
 
 	for (l = _strlen(s) - 1; l >= 0; l--)
 	{
