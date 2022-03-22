@@ -3,26 +3,16 @@
  * print_rev - function prints a string in reverse, followed by a newline
  * @s: a string
  */
-
-int _strlen(char *s)
-{
-	int i;
-	int str_len = 0;
-
-	for (i = 0; s[i] != '\0'; i++)
-	{	
-	str_len++;
-	}
-	return (str_len);
-}	
 void print_rev(char *s)
 {
 
-	int l = _strlen(s);
+	int l = _strlen(s) - 1;
+	char *rev
 
-	for (; s[l]; l--)
+	for (; l >= 0; l--)
 	{
-		_putchar(s[l]);
+		rev = rev + s[l];
+		_putchar(rev);
 	}
 	_putchar('\n');
 }
