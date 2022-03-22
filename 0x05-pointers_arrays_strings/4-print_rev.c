@@ -20,7 +20,7 @@ void print_rev(char *s)
 
 	int l = _strlen(s);
 
-	for (l; s[l]; l--)
+	for (; s[l]; l--)
 	{
 		_putchar(s[l]);
 	}
